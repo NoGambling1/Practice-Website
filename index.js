@@ -1,7 +1,7 @@
 document.addEventListener('click', (e) => {
     let inputVal = document.getElementById("textbox").value;
     document.title=inputVal;
-
+//hi
 })
 function loading() {
     let ls = localStorage.getItem("counter");
