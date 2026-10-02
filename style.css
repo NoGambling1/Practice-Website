@@ -2,59 +2,57 @@
 
 body { /* Margin is outside, does not count for sizing. Padding is inside, subtracts from inside*/
     /*background-color: #A7C7E7;*/
-    background: linear-gradient(45deg, #70FBFF, #2B5D5E);
+    background: linear-gradient(45deg, #000000, #1c1a1a);
     color: #ff4c00;
-    font-family: 'Edwardian Script ITC', cursive;
+    font-family: 'Verdana', cursive;
     font-size: 16px;
     margin: 500px;
+    transition: all 0.3s ease-in-out;
 
 }
 table {
     border: 2px solid #FF007F;
+    margin-top: 55px;
     margin-left: min(250px);
+    scale: 1.4;
 }
 table:hover {
-    height: 1000px;
-    width: 1000px;
+    filter: invert(1);
 }
 img {
     width: 50%;
-    box-shadow: 10px 10px 10px #FF007F;
     margin-left: 100px;
+    border-radius: 15px;
 }
 img:hover {
-    width: 100%;
-    height: 500%;
-
-    filter: invert(100%);
+    filter: invert(25%);
 }
-.heading {
-    margin-left: 250px;
+.favThings {
+    font-size: 35px;
 }
-
+#list {
+    font-size: 30px;
+}
 #heading {
-    margin-left: 450px;
+    text-align: center;
+    font-size: 55px;
 }
 
 #hlo {
-    margin-left: 250px;
-    font-size: 50px;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+
 }
 
-div {
-    background-color: #014D4E;
-    box-shadow: 10px 10px 10px 50px #014D4E;
-    border: #ff0000 1px dot-dot-dash;
-    li {
-        list-style: none
-    }
-}
+
 
 #kiteArmy {
-    background-color: #d4e44a;
+    background-color: #292929;
     box-shadow: 10px 10px 10px #f109a7;
     border: #ff0000 1px dot-dot-dash;
     font-size: 50px;
+    text-color: #2E6F40
 }
 
 #kiteArmy:hover {
@@ -67,13 +65,32 @@ div {
 a[href*="frhsd.com"] {
     color: #ffff00;
 }
-
+.endOfClass {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
 li:hover{
-    padding: 40px;
     background-color: rgba(241, 95, 18, 0.39);
     color: #ff0000;
+    scale: 125%;
 }
+#quoteText {
+    font-size: 35px;
+    text-align: center;
+}
+#quote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 1s ease-in-out;
 
+
+}
+#quote:hover {
+    filter: invert(0);
+    scale: 1.1;
+    filter: blur(2px);
+}
 ol>li {
     color: lemonchiffon;
 }
@@ -85,7 +102,16 @@ li+li {
     background-image: url("https://i.redd.it/u2m9svm2ztic1.jpeg");
 }
 p+div{
-    border: 5px dotted #7a7a7a;
+    border: 5px dotted #2E6F40;
+}
+#bentDesk {
+    margin-top: 80px;
+    rotate: 15deg;
+}
+#treeImg {
+    padding-right: 200px;
+    scale: 0.4;
+    filter: invert(100%);
 }
 
 #pod {
@@ -93,6 +119,15 @@ p+div{
     justify-content: space-around;
     flex-direction: column;
 }
+#kitty {
+    rotate: 2deg;
+}
+#daniel {
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+
 
 #grid {
     display: grid;
@@ -109,6 +144,8 @@ p+div{
     p {
         grid-column: span 2;
         grid-row: span 2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
     }
     a {
         grid-column: span 1;
@@ -117,11 +154,11 @@ p+div{
     }
 }
 #robuxButton {
-    color: #ff2b2b;
-    background-color: brown;
-    scale: 350%;
-    margin-left: 600px;
-}
+    color: #ffffff;
+    background-color: #595959;
+    scale: 250%;
+    margin-top: 120px;
+    margin-left: 350px;}
 
 #robuxButton:hover {
     background-color: #ff4b2b;
@@ -129,13 +166,18 @@ p+div{
 }
 
 #textbox {
-    background-color: #420fda;
-    scale: 500%;
-    margin-top:250px;
+    background-color: #4c4c4c;
+    scale: 350%;
 }
 
 .booton {
     scale: 550%;
     margin-top: 500px;
     margin-left: 500px;
+}
+#directory {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 50px;
+    text-color: blue;
 }
